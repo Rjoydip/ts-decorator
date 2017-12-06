@@ -1,10 +1,13 @@
-import { TakeInfo } from "./decorator";
+import { 
+    TakeMethodInfo,
+    TakeClassInfo
+} from "./decorator";
 
-@TakeInfo()
+@TakeClassInfo
 class DecoratorExample {
     constructor() { }
 
-    @TakeInfo()
+    @TakeMethodInfo()
     public method() {
         return {
 

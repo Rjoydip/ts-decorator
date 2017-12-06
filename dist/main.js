@@ -17,13 +17,13 @@ var DecoratorExample = /** @class */ (function () {
         return {};
     };
     __decorate([
-        decorator_1.TakeInfo(),
+        decorator_1.TakeMethodInfo(),
         __metadata("design:type", Function),
         __metadata("design:paramtypes", []),
         __metadata("design:returntype", void 0)
     ], DecoratorExample.prototype, "method", null);
     DecoratorExample = __decorate([
-        decorator_1.TakeInfo(),
+        decorator_1.TakeClassInfo,
         __metadata("design:paramtypes", [])
     ], DecoratorExample);
     return DecoratorExample;
