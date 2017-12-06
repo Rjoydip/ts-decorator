@@ -17,7 +17,7 @@ var DecoratorExample = /** @class */ (function () {
         return {};
     };
     __decorate([
-        decorator_1.TakeMethodInfo(),
+        decorator_1.TakeMethodInfo(true),
         __metadata("design:type", Function),
         __metadata("design:paramtypes", []),
         __metadata("design:returntype", void 0)

@@ -7,7 +7,7 @@ import {
 class DecoratorExample {
     constructor() { }
 
-    @TakeMethodInfo()
+    @TakeMethodInfo(true)
     public method() {
         return {
 
