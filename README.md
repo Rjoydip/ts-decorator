@@ -1,7 +1,7 @@
 # ts-decorator
 Simple decorator example in typescript
 
-# Instalatio0n
+# Instalation
 
 ```sh
 $ git clone https://github.com/Rjoydip/ts-decorator.git
